@@ -30,6 +30,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+  <!-- <script>navigator.serviceWorker.register("%PUBLIC_URL%/sw.js")</script>  -->
     <title>Guia Vital</title>
   </head>
   <body>
@@ -47,16 +48,16 @@
     -->
 
     <script>
-    // if ('serviceWorker' in navigator) {
-    //   navigator.serviceWorker
-    //     .register('/sw.js')
-    //     .then(serviceWorker => {
-    //       console.log('Service Worker registered: ' + serviceWorker);
-    //     })
-    //     .catch(error => {
-    //       console.log('Error registering the Service Worker: ' + error);
-    //     });
-    // }
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker
+        .register('/sw.js')
+        .then(serviceWorker => {
+          console.log('Service Worker registered: ' + serviceWorker);
+        })
+        .catch(error => {
+          console.log('Error registering the Service Worker: ' + error);
+        });
+    }
     </script>
   </body>
 </html>

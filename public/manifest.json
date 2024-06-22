@@ -2,10 +2,12 @@
     "theme_color": "#C7F5FF",
     "background_color": "#C7F5FF",
     "display": "standalone",
+    "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
-    "name": "Guia Vital ",
+    "name": "Guia Vital",
     "short_name": "Guia Vital",
+    "description": "Cuidando da sua saúde a todo momento",
     "icons": [
     {
       "src": "android/android-launchericon-512-512.png",
