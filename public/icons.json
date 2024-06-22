@@ -1,12 +1,5 @@
 {
-    "theme_color": "#C7F5FF",
-    "background_color": "#C7F5FF",
-    "display": "standalone",
-    "scope": "/",
-    "start_url": "/",
-    "name": "Guia Vital ",
-    "short_name": "Guia Vital",
-    "icons": [
+  "icons": [
     {
       "src": "android/android-launchericon-512-512.png",
       "sizes": "512x512"
