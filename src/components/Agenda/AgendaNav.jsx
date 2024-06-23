@@ -1,17 +1,16 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import styles from './agendaNav.module.css'
-
 
 export default function AgendaNav() {
    return (
       <nav className={styles.navContainer}>
-         <Link to={'/agenda/consultas'} className={styles.navItemA}>
+         <NavLink to={'/agenda/consultas'} className={styles.navItemA}>
             Consultas Marcadas
-         </Link>
-         <Link to={'/agenda/historico'} className={styles.navItem}>
+         </NavLink>
+         <NavLink to={'/agenda/historico'} className={styles.navItem}>
             Histórico
-         </Link>
+         </NavLink>
       </nav>
    )
 }

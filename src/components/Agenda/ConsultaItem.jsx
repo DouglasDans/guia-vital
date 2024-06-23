@@ -1,11 +1,11 @@
 import React from 'react'
-import TagItem from '../global/TagItem'
+import TagItem from './TagItem'
 import styles from './consultaItem.module.css'
 
-export default function ConsultaItem() {
+export default function ConsultaItem({provisorioTag = "Agendado"}) {
    return (
       <div className={styles.consultaItemContainer}>
-         <TagItem/>
+         <TagItem status={provisorioTag}/>
 
          <div className={styles.listItem}>
 
