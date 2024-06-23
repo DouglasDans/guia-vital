@@ -6,11 +6,11 @@ import { Alarm, CalendarMonth, Chat, Home, ReceiptLong } from '@mui/icons-materi
 export default function Navbar() {
    return (
       <nav className={"navContainer"}>
-         <NavLink to={"/teste"} className={"navItem"}>
+         <NavLink to={"/agenda/consultas"} className={"navItem"}>
             <CalendarMonth/>
             <span>Agenda</span>
          </NavLink>
-         <NavLink to={"/teste"} className={"navItem"}>
+         <NavLink to={"/chat"} className={"navItem"}>
             <Chat/>
             <span>Chat</span>
          </NavLink>
@@ -18,13 +18,13 @@ export default function Navbar() {
             <Home/>
             <span>Início</span>
          </NavLink>
-         <NavLink to={"/teste"} className={"navItem"}>
+         <NavLink to={"/lembretes"} className={"navItem"}>
             <Alarm/>
             <span>Lembrentes</span>
          </NavLink>
-         <NavLink to={"/teste"} className={"navItem"}>
+         <NavLink to={"/receitas"} className={"navItem"}>
             <ReceiptLong/>
-            <span>Agenda</span>
+            <span>Receitas</span>
          </NavLink>
       </nav>
    )

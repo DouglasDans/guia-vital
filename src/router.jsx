@@ -12,7 +12,7 @@ export default function Router(){
    return(
       <Routes>
          <Route path="/" element={<Home/>}/>
-         <Route path="/registroSintomas" element={<RegistroSintomas/>}/>
+         <Route path="/registrosintomas" element={<RegistroSintomas/>}/>
          <Route path="/agenda/consultas" element={<ConsultasMarcadas/>}/>
          <Route path="/agenda/historico" element={<Historico/>}/>
          <Route path="/chat" element={<Hub/>}/>
