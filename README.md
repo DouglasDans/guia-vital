@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+<img src="https://github.com/AndradeReryson/guia-vital/blob/master/src/Guia_Vital_Logo.png" alt="logo da Guia Vital"/>
+<p align="center">
+  <a href="https://drive.google.com/file/d/1OAG9Z7QHqnxoWyvUgICuhcIpbUGlj-LC/view">DOC: <strong>Canvas de Negócio</strong></a> •
+  <a href="https://drive.google.com/file/d/1t7Z7bFa63ualdpjje0VL6zKndHR92lR6/view">DOC: <strong>Diagrama de Caso de Uso</strong></a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre
+<p align="justify">O Guia Vital é um Web App voltando a auxiliar hospitais no acompanhamento pós-consulta de seus pacientes. Através dele, o paciente pode receber orientações contínuas, lembretes automáticos para tomar medicamentos, relatar diariamente como está se sentindo, agendar retornos ao médico e acessar receitas médicas de maneira digital.</p>
+<p align="justify">Os médicos terão acesso a uma ferramenta para criar receitas médicas digitais, além de possuir uma lista de todos os seus pacientes, tendo acesso aos relatos diários do paciente no App e todas as suas receitas. Em caso de sintomas graves, nosso App conecta o paciente ao médico via chat, auxiliando o paciente a tomar as medidas adequadas.</p>
 
-## Available Scripts
+### Funcionalidades
+<ul>
+  <li>Ferramenta para marcação de retorno via App;</li>
+  <li>Ferramenta para criação/visualização de receitas médicas digitais;</li>
+  <li>Lembretes automáticos para tomar medicamentes;</li>
+  <li>Monitoramento diário de sintomas via questionário;</li>
+  <li>Comunicação direta com um médico em caso de sintomas graves.</li>
+</ul>
 
-In the project directory, you can run:
+## Acesso ao Protótipo
+Você pode testar nosso protótipo pelo [Link do protótipo](https://guia-vital.vercel.app/).
+
+## Quem Somos
+<p align="justify">Somos a equipe “Os CRUDs” e desenvolvemos este projeto para participar no Hackaton Saúde 4.0, uma iniciativa da Docsolution com objetivo de unir tecnologia e empreendedorismo para auxiliar o setor de Saúde.</p>
+
+### Devs
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/AndradeReryson">
+        <img src="https://avatars.githubusercontent.com/u/112758537?v=4" width="100px;" alt=""/><br>
+        <sub>
+          <b>Reryson Andrade</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/VictorDemetrius">
+        <img src="https://avatars.githubusercontent.com/VictorDemetrius" width="100px;" alt=""/><br>
+        <sub>
+          <b>Victor Demetrius</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/DouglasDans">
+        <img src="https://avatars.githubusercontent.com/DouglasDans" width="100px;" alt=""/><br>
+        <sub>
+          <b>Douglas Nascimento</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/jackelinepaula">
+        <img src="https://avatars.githubusercontent.com/jackelinepaula" width="100px;" alt=""/><br>
+        <sub>
+          <b>Jackeline Paula</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+## Desenvolvimento
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Roda o app em modo de desenvolvimento.\
+Acesse [http://localhost:3000](http://localhost:3000) para ver em seu navegador.\
+A pagina irá recarregar quando forem feitas mudanças.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Roda o test runner no modo de expectador.\
+Veja a seção sobre [running tests](https://facebook.github.io/create-react-app/docs/running-tests) para mais informações.
 
 ### `npm run build`
+Builda o app para produção na pasta `build`.\
+Veja a seção sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para mais informações.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dependências
+<ul>
+  <li>@emotion/react</li>
+  <li>@emotion/styled</li>
+  <li>@mui/icons-material</li>
+  <li>@mui/material</li>
+  <li>@testing-library/jest-dom</li>
+  <li>@testing-library/react</li>
+  <li>@testing-library/user-event</li>
+  <li>react</li>
+  <li>react-dom</li>
+  <li>react-router-dom</li>
+  <li>react-scripts</li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
