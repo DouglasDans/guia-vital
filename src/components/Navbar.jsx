@@ -1,29 +1,29 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import styles from './navbar.module.css'
-import { CalendarMonth } from '@mui/icons-material'
+import './navbar.css'
+import { Alarm, CalendarMonth, Chat, Home, ReceiptLong } from '@mui/icons-material'
 
 export default function Navbar() {
    return (
-      <nav className={styles.navContainer}>
-         <NavLink to={"/teste"} className={styles.navItem}>
+      <nav className={"navContainer"}>
+         <NavLink to={"/teste"} className={"navItem"}>
             <CalendarMonth/>
             <span>Agenda</span>
          </NavLink>
-         <NavLink to={"/teste"} className={styles.navItem}>
-            <CalendarMonth/>
-            <span>Agenda</span>
+         <NavLink to={"/teste"} className={"navItem"}>
+            <Chat/>
+            <span>Chat</span>
          </NavLink>
-         <NavLink to={"/teste"} className={styles.navItem}>
-            <CalendarMonth/>
-            <span>Agenda</span>
+         <NavLink to={"/"} className={"navItem"}>
+            <Home/>
+            <span>Início</span>
          </NavLink>
-         <NavLink to={"/teste"} className={styles.navItem}>
-            <CalendarMonth/>
-            <span>Agenda</span>
+         <NavLink to={"/teste"} className={"navItem"}>
+            <Alarm/>
+            <span>Lembrentes</span>
          </NavLink>
-         <NavLink to={"/teste"} className={styles.navItem}>
-            <CalendarMonth/>
+         <NavLink to={"/teste"} className={"navItem"}>
+            <ReceiptLong/>
             <span>Agenda</span>
          </NavLink>
       </nav>
