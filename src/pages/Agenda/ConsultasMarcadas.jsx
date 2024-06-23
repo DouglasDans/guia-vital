@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Navbar from '../../components/Navbar'
 
 export default function ConsultasMarcadas() {
   return (
-    <div>ConsultasMarcadas</div>
+    <Fragment>
+      <Navbar/>
+    </Fragment>
   )
 }

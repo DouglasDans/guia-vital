@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Navbar from '../components/Navbar'
 
 export default function Receitas() {
   return (
-    <div>Receitas</div>
+    <Fragment>
+      <Navbar/>
+    </Fragment>
   )
 }
