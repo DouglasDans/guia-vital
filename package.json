@@ -1,6 +1,5 @@
 {
   "name": "guia-vital",
-  "homepage": "https://os-cruds-hackatons.github.io/guia-vital/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
