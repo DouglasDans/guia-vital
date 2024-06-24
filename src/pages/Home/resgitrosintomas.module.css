@@ -1,0 +1,38 @@
+.opcao_sintoma{
+    color: #565656;
+    border: 1px solid #565656;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.card_sintoma{
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+}
+
+.card_sintoma textarea{
+    resize: none;
+    outline: none; 
+    border: none;
+    padding: 10px;
+    background-color:#cccccc;
+    border-radius: 4px;
+}
+
+.btn_salvar{
+    background-color: #C7F5FF;
+    border:none;
+    padding: 0.5rem;
+    width: 380px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
