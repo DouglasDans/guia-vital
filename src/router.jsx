@@ -6,7 +6,8 @@ import Historico from "./pages/Agenda/Historico";
 import Hub from "./pages/Chat/Hub";
 import Chat from "./pages/Chat/Chat";
 import Lembretes from "./pages/Lembretes";
-import Receitas from "./pages/Receitas";
+import Medicamentos from "./pages/Receitas/Medicamentos";
+import Receitas from "./pages/Receitas/Receitas";
 
 export default function Router(){
    return(
@@ -18,6 +19,7 @@ export default function Router(){
          <Route path="/chat" element={<Hub/>}/>
          <Route path="/chat/mensagem" element={<Chat/>}/>
          <Route path="/lembretes" element={<Lembretes/>}/>
+         <Route path="/receitas/medicamentos" element={<Medicamentos/>}/>
          <Route path="/receitas" element={<Receitas/>}/>
       </Routes>
    )
